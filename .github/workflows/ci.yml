@@ -1,15 +1,16 @@
 name: RSpec CI
-on:
-  push:
-    branches:
-      - 'main'
-      - '*-maintenance'
-      - '*-dev'
-      - 'pr-*'
-  pull_request:
-    branches:
-      - '*'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - 'main'
+#       - '*-maintenance'
+#       - '*-dev'
+#       - 'pr-*'
+#   pull_request:
+#     branches:
+#       - '*'
+# 
 permissions:
   contents: read
 
